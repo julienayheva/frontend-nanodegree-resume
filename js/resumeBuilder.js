@@ -1,8 +1,11 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
- var formattedName = "Julien Kouassi";
- var formattedRole = "Web Developper";
+ var name = "Julien Kouassi";
+ var role = "Web Developer";
+ 
+ var formattedName;
+ var formattedRole;
  
 var formattedName = HTMLheaderName.replace("%data%", name);
 $("#header").append(formattedName);
