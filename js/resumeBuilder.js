@@ -18,6 +18,6 @@ var bio= {
  "name" : "Julien",
  "age" : 32,
  "contact info" : julienayheva@gmail.com,
- "picture" :,
+ "picture" :Masque_Combat.jpg,
  "Skills" : , 
 }
