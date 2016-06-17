@@ -17,7 +17,8 @@ var skills  =
 var bio= {
  "name" : "Julien",
  "age" : 32,
- "contact info" : julienayheva@gmail.com,
- "picture" :Masque_Combat.jpg,
- "Skills" : , 
+ "contact info" : "julienayheva@gmail.com",
+ "picture" :"images/Masque_Combat.jpg",
+ "Skills" : skills, 
 }
+$("#main").append(bio);
