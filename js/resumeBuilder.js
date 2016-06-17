@@ -19,6 +19,8 @@ var bio= {
  "age" : 32,
  "contact info" : "julienayheva@gmail.com",
  "picture" :"images/Masque_Combat.jpg",
- "Skills" : skills, 
+ "Skills" : skills
 }
+var formattedBio;
+var formattedBio = HTML
 $("#main").append(bio);
