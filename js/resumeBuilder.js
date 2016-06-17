@@ -11,3 +11,13 @@ var formattedName = HTMLheaderName.replace("%data%", name);
 $("#header").append(formattedName);
 var formattedRole = HTMLheaderRole.replace("%data%", role);
 $("#header").prepend(formattedRole);
+
+var skills  = 
+["Faith","Awesomeness","Programming","Modeling"];
+var bio= {
+ "name" : "Julien",
+ "age" : 32,
+ "contact info" : julienayheva@gmail.com,
+ "picture" :,
+ "Skills" : , 
+}
