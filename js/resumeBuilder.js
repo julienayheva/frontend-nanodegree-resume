@@ -23,4 +23,4 @@ var bio= {
 }
 var formattedBio;
 var formattedBio = HTML
-$("#main").append(bio);
+$("#main").append(bio.name);
