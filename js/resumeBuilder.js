@@ -1,7 +1,7 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
- var name = "Julien Kouassi";
+/* var name = "Julien Kouassi";
  var role = "Web Developer";
  
  var formattedName;
@@ -24,7 +24,7 @@ var bio= {
 var formattedBio;
 var formattedBio = HTML
 $("#main").append(bio.name);
-
+*/
 var work = {};
 work["position"] = "3D Artist";
 work["employer"] = "Freelance";
