@@ -31,12 +31,14 @@ var work = {
   "Years Worked" : "2 years",
   "City of Business" : "Abidjan",
 }
+work["position"] = "3D Artist";
 
 var education = {
  "Last school's name" : "ISTC",
  "Years attending" : 32,
  "School city" : "Abidjan",
 }
-education.
+education.name = "ISTC";
 
 $("main").append(education.name);
+$("main").append(work["position"]);
