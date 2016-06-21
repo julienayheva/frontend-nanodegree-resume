@@ -36,5 +36,5 @@ education.years = 3;
 education.city = "Abidjan";
 
 
-$("#main").append(education.name);
-$("#main").append(work["position"]);
+$("#header").append(education.name);
+$("#header").append(work["position"]);
