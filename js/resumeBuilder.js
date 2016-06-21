@@ -25,20 +25,16 @@ var formattedBio;
 var formattedBio = HTML
 $("#main").append(bio.name);
 
-var work = {
-  "Position" : "3D Artist",
-  "Employer" : "Freelance",
-  "Years Worked" : "2 years",
-  "City of Business" : "Abidjan",
-}
+var work = {};
 work["position"] = "3D Artist";
+work["employer"] = "Freelance";
+work["Years"] = 2;
 
-var education = {
- "Last school's name" : "ISTC",
- "Years attending" : 32,
- "School city" : "Abidjan",
-}
+var education = {};
 education.name = "ISTC";
+education.years = 3;
+education.city = "Abidjan";
+
 
 $("main").append(education.name);
 $("main").append(work["position"]);
